@@ -9,6 +9,12 @@ import tree3 from "../assets/photos/global/tree (3).png";
 import flow1 from "../assets/photos/flow/flow (1).png";
 import flow2 from "../assets/photos/flow/flow (2).png";
 import flow3 from "../assets/photos/flow/flow (3).png";
+import car1 from "../assets/photos/car/car (1).png";
+import car2 from "../assets/photos/car/car (2).png";
+import car3 from "../assets/photos/car/car (3).png";
+import lens1 from "../assets/photos/lens/lens (1).png";
+import lens2 from "../assets/photos/lens/lens (2).png";
+import lens3 from "../assets/photos/lens/lens (3).png";
 
 interface Project {
   number: string;
@@ -32,16 +38,18 @@ const PROJECTS: Project[] = [
   {
     number: "02",
     category: "Personal",
-    name: "Expense Tracker",
+    name: "Datson (3D Model)",
     col1: ["chart", "list"],
     col2: "stats",
+    images: [car1, car3, car2],
   },
   {
     number: "03",
     category: "Personal",
-    name: "Data Analysis Dashboard",
+    name: "Lumex (Scrollytelling)",
     col1: ["stats", "chart"],
     col2: "cards",
+    images: [lens1, lens3, lens2],
   },
   {
     number: "04",
