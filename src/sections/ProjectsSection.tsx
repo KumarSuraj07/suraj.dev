@@ -34,6 +34,7 @@ const PROJECTS: Project[] = [
     col1: ["kanban", "list"],
     col2: "stats",
     images: [flow1, flow3, flow2],
+    href: "https://freelanceflow-two.vercel.app/login",
   },
   {
     number: "02",
@@ -42,6 +43,7 @@ const PROJECTS: Project[] = [
     col1: ["chart", "list"],
     col2: "stats",
     images: [car1, car3, car2],
+    href: "https://datsun-omega.vercel.app/",
   },
   {
     number: "03",
@@ -50,6 +52,7 @@ const PROJECTS: Project[] = [
     col1: ["stats", "chart"],
     col2: "cards",
     images: [lens1, lens3, lens2],
+    href: "https://lumex-sigma.vercel.app/",
   },
   {
     number: "04",
