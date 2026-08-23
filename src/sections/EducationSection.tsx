@@ -222,7 +222,7 @@ function EduCard({ edu, index }: { edu: typeof EDUCATION[0]; index: number }) {
 
 export default function EducationSection() {
   return (
-    <section id="education" className="bg-[#0C0C0C] px-5 sm:px-8 md:px-10 py-20 sm:py-24 md:py-32">
+    <section id="education" className="relative z-10 bg-[#0C0C0C] px-5 sm:px-8 md:px-10 py-20 sm:py-24 md:py-32">
       <FadeIn delay={0}>
         <h2
           className="hero-heading font-black uppercase leading-none tracking-tight text-center mb-16 sm:mb-20"
