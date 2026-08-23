@@ -78,7 +78,7 @@ function ProjectCard({ project, index, total }: { project: Project; index: numbe
   return (
     <div
       ref={ref}
-      className="h-[60vh] sm:h-[85vh] flex items-start justify-center sticky"
+      className="h-[45vh] sm:h-[85vh] flex items-start justify-center sticky"
       style={{ top: `${index * 28}px` }}
     >
       <motion.div
